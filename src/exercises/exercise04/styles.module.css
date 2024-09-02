@@ -5,10 +5,49 @@
     gap: 15px
 }
 
-.form_container {
+.row {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0px 10px;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: right;
     align-items: center;
-    gap: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.btn {
+    text-align: center;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: black;
+    width: 150px;
+    height: 30px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+select {
+    height: 30px;
+    margin-top: 3px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 50px;
 }
