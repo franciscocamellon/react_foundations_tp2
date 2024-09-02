@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 function Exercise12() {
   return (
     <>
-      <Title number={1} title={'Criando um componente básico'} />
+      <Title number={12} title={'Portfólio - Parte 2'} />
     </>
   )
 }

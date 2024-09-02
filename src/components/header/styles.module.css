@@ -22,3 +22,19 @@ header {
     align-items: center;
     text-align: center;
 }
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul li {
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+header nav ul li:hover {
+    color: #f57d00;
+}

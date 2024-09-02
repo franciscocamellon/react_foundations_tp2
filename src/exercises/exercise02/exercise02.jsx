@@ -12,6 +12,7 @@ function Exercise02() {
         padding: '10px 10px',
         gap: '15px'
       }}>
+
         <div style={{
           display: 'flex',
           flexDirection: 'row',
@@ -21,6 +22,7 @@ function Exercise02() {
           <img src='src\assets\exercise02.png' width="250" />
           <img src='src\assets\exercise02.png' width="250" />
         </div>
+
         <div style={{
           display: 'flex',
           flexDirection: 'row',

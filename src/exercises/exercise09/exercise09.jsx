@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 function Exercise09() {
   return (
     <>
-      <Title number={1} title={'Criando um componente básico'} />
+      <Title number={9} title={'Landing page responsiva'} />
     </>
   )
 }
