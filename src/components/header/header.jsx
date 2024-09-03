@@ -10,10 +10,10 @@ function Header(props) {
       {props.complete ?
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Quem somos</li>
-            <li>Produtos</li>
-            <li>Contato</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#quem-somos">Quem Somos</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav> : <div className={styles.text_container}>Header</div>
       }

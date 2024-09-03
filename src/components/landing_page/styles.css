@@ -1,0 +1,241 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 5px 10px;
+}
+
+.produtos,
+.quem-somos,
+.contato {
+    margin-top: 20px;
+}
+
+.produto,
+.membro-equipe {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.produto img,
+.membro-equipe img {
+    width: 150px;
+    height: 150px;
+}
+
+.equipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home img {
+    max-width: 150px;
+    height: auto;
+}
+
+.text_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contato label {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .quem-somos .equipe,
+    .produtos .lista-produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .membro-equipe img,
+    .produto img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .home img {
+        max-width: 80px;
+    }
+
+    .contato form {
+        width: 90%;
+    }
+
+    .contato input[type="text"],
+    .contato input[type="email"],
+    .contato textarea {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+
+    .quem-somos,
+    .produtos,
+    .contato {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .home h1 {
+        font-size: 24px;
+    }
+
+    .membro-equipe img,
+    .produto img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .home img {
+        max-width: 60px;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .quem-somos .equipe,
+    .produtos .lista-produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .membro-equipe img,
+    .produto img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .home img {
+        max-width: 80px;
+    }
+
+    .contato form {
+        width: 90%;
+    }
+
+    .contato input[type="text"],
+    .contato input[type="email"],
+    .contato textarea {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+
+    .quem-somos,
+    .produtos,
+    .contato {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .home h1 {
+        font-size: 24px;
+    }
+
+    .membro-equipe img,
+    .produto img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .home img {
+        max-width: 60px;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+}

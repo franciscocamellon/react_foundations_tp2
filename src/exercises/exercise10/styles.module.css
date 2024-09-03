@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 15px
+}
+
+header {
+    display: flex;
+    background-color: #dadada;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
